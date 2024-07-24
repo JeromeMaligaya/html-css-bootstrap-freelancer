@@ -20,6 +20,13 @@ ul{
 header{
     height: 75px;
 }
+
+.row > *{
+    min-height: 25px;
+    border: 1px black dashed;
+}
+
+
 /*layout*/
 
 /*color*/
