@@ -21,7 +21,7 @@ header{
     height: 75px;
 }
 
-.row > *{
+.row > *, .container-sm > *:not(.row){
     min-height: 25px;
     border: 1px black dashed;
 }
