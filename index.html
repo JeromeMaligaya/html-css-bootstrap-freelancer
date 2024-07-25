@@ -17,7 +17,7 @@
     
     <body>
         <!-- header -->
-       <header class="bg-dark-blue px-3 px-sm-0">
+       <header class="bg-dark-blue py-3 px-sm-0">
             <nav class="navbar navbar-expand-md fw-medium h-100">
                 <div class="container-fluid container-sm">
                     <a class="navbar-brand text-light" href="#">START BOOTSTRAP</a>
@@ -67,7 +67,7 @@
             </section>
 
             <!-- portfolio -->
-            <section id="portfolio" class="portfolio bg-light p-3 px-sm-0">
+            <section id="portfolio" class="portfolio bg-light py-3 px-3 px-sm-0">
                 <div class="container-sm">
                     <div class="row justify-content-center mb-4">
                         <h2 class="col-12 text-center">PORTFOLIO</h2>
@@ -118,20 +118,30 @@
             </section>
 
             <!-- contact -->
-            <section class="contact bg-light p-3">
+            <section id="contact" class="contact bg-light py-3">
                 <div class="container-sm">
-                    <div class="row flex-column align-items-start">
-                        <h2 class="col-auto align-self-center">H2</h2>
-                        <div class="col-3 align-self-center">HR</div>
-                        <div class="col-12">NAME</div>
-                        <div class="col-12">HR</div>
-                        <div class="col-12">EMAIL ADDRESS</div>
-                        <div class="col-12">HR</div>
-                        <div class="col-12">PHONE NUMBER</div>
-                        <div class="col-12">HR</div>
-                        <div class="col-12">MESSAGE</div>
-                        <div class="col-12">HR</div>
-                        <div class="col-4"></div>
+                    <div class="row flex-column align-items-center g-3">
+                        <h2 class="col-auto">CONTACT ME</h2>
+                        <div class="col-8 text-center">
+                            <div class="border border-2 border-dark rounded-5 w-25 d-inline-block"></div>
+                            <div class="d-inline-block px-2"><i class="fa-solid fa-star"></i></div>
+                            <div class="border border-2 border-dark rounded-5 w-25 d-inline-block"></div>
+                        </div>
+                        <form action="" class="col-9 col-md-10">
+                            <div class="mb-3">
+                                <input type="name" class="w-100 border-0 border-bottom border-dark bg-transparent" id="name" name="name" placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="w-100 border-0 border-bottom border-dark bg-transparent" id="email" name="email" placeholder="email">
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="w-100 border-0 border-bottom border-dark bg-transparent" id="phone" name="phone-number" placeholder="Phone Number">
+                            </div>
+                            <div class="mb-3">
+                            <textarea type="email" class="w-100 border-0 border-bottom border-dark bg-transparent" rows="8" id="email" name="email" placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary bg-acqua border-trasparent">Send</button>
+                        </form>
                     </div>
                 </div>
             </section>
