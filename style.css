@@ -1,19 +1,18 @@
-/*generics*/
-
-header{
-    height: 75px;
-}
-
 /*bg*/
 .bg-dark-blue{
-    background-color: #2E3F4F;
+    background-color: #385b7c;
 }
 
 .bg-acqua{
     background-color: #00B89A;
 }
 
-/*btn*/
+.bg-iron{
+    background-color: #2C3E50;
+}
 
-
-/*utilities*/
+/* footer */
+footer li{
+    height: 40px;
+    width: 40px;
+}
