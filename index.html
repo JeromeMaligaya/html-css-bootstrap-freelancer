@@ -17,19 +17,33 @@
     
     <body>
         <!-- header -->
-       <header class="bg-primary px-3 px-sm-0">
-            <div class="container-sm h-100">
-                <div class="row h-100 align-items-center text-light">
-                    <div class="col">START BOOTSTRAP</div>
-                    <div class="col text-end d-sm-none"><i class="fa-solid fa-bars"></i></div>
-                    <div class="col d-none text-end d-sm-block">link 1 link 2 link 3</div>
+       <header class="bg-dark-blue px-3 px-sm-0">
+            <nav class="navbar navbar-expand-md fw-medium h-100">
+                <div class="container-fluid container-sm">
+                    <a class="navbar-brand text-light" href="#">START BOOTSTRAP</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-light" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-light" href="#">CONTENT</a>
+                        </li>
+                    </ul>
+                    </div>
                 </div>
-            </div>
+                </nav>
        </header> 
 
        <main>
             <!-- jumbo -->
-            <section class="jumbo bg-success p-3">
+            <section class="jumbo bg-success">
                 <div class="container-sm">
                     <div class="row flex-column align-items-center text-light">
                         <div class="col-4">IMG 100%</div>
@@ -92,7 +106,7 @@
        <!-- footer  -->
        <footer>
             <div class="bg-primary p-3 px-sm-0 ">
-                <div class="container-sm">
+                <div class="container-sm"> 
                     <div class="row flex-column align-items-center flex-md-row text-light">
                         <div class="col-12 text-center col-md-4">LOCATION</div>
                         <div class="col-12 text-center col-md-4">SOCIAL</div>

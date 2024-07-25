@@ -1,39 +1,13 @@
 /*generics*/
-/* body{
-    font-family: sans-serif;
-}
-
-img{
-    width: 100%;
-    display: block;
-}
-
-a{
-    display: block;
-    text-decoration: none;
-}
-
-ul{
-    list-style-type: none;
-} */
 
 header{
     height: 75px;
 }
 
-.row > *, .container-sm > *:not(.row){
-    min-height: 25px;
-    border: 1px black dashed;
-}
-
-
-/*layout*/
-
-/*color*/
-
-
 /*bg*/
-
+.bg-dark-blue{
+    background-color: #2E3F4F;
+}
 
 /*btn*/
 
